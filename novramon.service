@@ -1,0 +1,20 @@
+[Unit]
+Description=Novra Satellite Receiver to InfluxDB
+After=network.target
+
+[Service]
+User=user
+Type=simple
+Restart=always
+RestartSec=5
+WorkingDirectory=/.../
+ExecStart=/.../_venv/bin/python /.../novramon/novramon.py >> /dev/null 2>&1
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
+

@@ -2,6 +2,7 @@ import datetime
 import atexit
 
 from datetime import timedelta
+from time import sleep
 
 import rx
 from rx import operators as ops
@@ -97,4 +98,5 @@ _write_api.write(bucket=INFLUXDB_BUCKET, record=data)
 
 atexit.register(on_exit, _db_client, _write_api)
 
-input()
+while True():
+    sleep(1)
