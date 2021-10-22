@@ -1,0 +1,12 @@
+
+# The IP address or hostname of the Novra device.
+NOVRA_HOST = "192.168.1.xx"
+
+# The password for the Novra device.
+NOVRA_PASSWORD = "password"
+
+# InfluxDB 2 connection and storage parameters.
+INFLUXDB_URL = "https://influxdb.example.com:8086"
+INFLUXDB_TOKEN = "THISISTHETOKEN"
+INFLUXDB_ORG = "THISISTHEORGNAME"
+INFLUXDB_BUCKET = "THISISTHEBUCKETNMAE"

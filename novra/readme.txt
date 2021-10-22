@@ -1,0 +1,1 @@
+This folder needs to contain the contents of the Novra CMCS Linux executable, name cmcs. It is not included here due to its license.

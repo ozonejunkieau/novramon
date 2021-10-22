@@ -1,0 +1,5 @@
+*.pyc
+venv/*
+novra/cmcs*
+novra/man1
+config.py
